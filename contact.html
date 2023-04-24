@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="cdn/css/contact.css">
+    <script src="cdn/js/contact.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Vipe</h1>
+      <form onsubmit="sendContact(event)">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Enter your email address:</label><br>
+          <input type="email" class="form-control" id="emailInput">
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Enter your message</label><br>
+          <textarea class="form-control" id="messageInput" rows="10" style="width: 100%;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      
+    </div>
+  </body>
+</html>
